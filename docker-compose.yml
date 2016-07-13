@@ -1,0 +1,12 @@
+website1:
+  #UNCOMMENT IN CASE THE CONTAINER EVER NEEDS TO BE CUSTOMIZED
+  #build: ./website1
+  image: nickistre/ubuntu-lamp
+  ports:
+    - "4327:80"
+
+website2:
+  image: nickistre/ubuntu-lamp
+  ports:
+    - "4328:80"
+
